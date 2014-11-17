@@ -1,0 +1,26 @@
+/*reset css*/
+ html, body, div, span, p, pre, header, footer, menu, nav, h1, h2, h3, h4, h5, h6
+ hgroup, audio, video, ul, or, li, form, table, tr, td
+ {
+ margin : 0;
+ padding : 0;
+ border : 0;
+ font-size : 100%;
+ font : inherit;
+ vertical-align : baseline;
+ }
+ body, p
+ {
+ line-height : 1;
+ font-family: Georgia-Italic, Helvetica;
+ font-size : 16pt;
+ }
+ p, ul, ol, li, h1, h2, h3, h4, h5, h6 {margin : 12pt;}
+ li {margin-left: 2em;}
+ 
+ h1 {font-size: 200%;}
+ h2 {font-size: 180%;}
+ h3 {font-size: 160%;}
+ h4 {font-size: 140%;}
+ h5 {font-size: 120%;}
+ h6 {font-size: 100%;}

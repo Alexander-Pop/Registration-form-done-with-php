@@ -1,0 +1,64 @@
+/*special styles*/
+.window 
+{
+	width : 500px;
+	height : auto;
+	margin : 0 auto;
+	margin-top : 20px;
+	background-color : #9094D4;
+	padding : 20px;
+	display : block;
+	color: white;
+	border : 1px solid grey;
+	border-radius : 2em;
+	font-family : Georgia-Italic;
+	box-shadow : 5px 5px 10px #999;
+}
+.window  p
+{
+	font-family : Georgia-Italic;
+}
+.window  p > input
+{
+	float : right;
+}
+.errors
+{
+	width : 300px;
+	padding : 20px;
+	border : 1px solid red;
+	font-family : Verdana;
+}
+button.log
+{
+	width: 155px;
+	height: 35px;
+}
+button.log 
+{
+	text-decoration: none;
+	font-family: inherit;
+}
+div.option  
+{
+	font-family : verdana;
+	color : #666461;
+	text-align : center;
+	margin : 0 auto;
+	padding : 10px;	
+	border: 1px solid black;
+	background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(black, grey); /* Standard syntax */
+}
+.option button 
+{
+	margin : 5px;			
+}
+#forgotten
+{
+	font-family : inherit;
+	font-size : 60%;
+	margin-top : 50px;
+}
